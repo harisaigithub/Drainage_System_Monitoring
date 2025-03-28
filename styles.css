@@ -1,0 +1,364 @@
+/* ============================
+   Global Styles
+============================ */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: #f8f9fa;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* ============================
+   Header Section
+============================ */
+header {
+    background: #ffffff;
+    padding: 1px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 90px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+h1 {
+    font-size: 34px;
+    margin: 20px;
+    font-weight: 600;
+    color: #d80aeb;
+    letter-spacing: 1px;
+}
+
+/* ============================
+   Navigation Bar
+============================ */
+nav {
+    background: #e3f2fd;
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    border-bottom: 2px solid #90caf9;
+}
+
+/* Navigation Links */
+nav a {
+    color: #0d47a1;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.4s ease-in-out;
+    position: relative;
+}
+
+/* Animated Effects */
+nav a:nth-child(1) {
+    animation: blinkGlow 1.5s infinite alternate;
+}
+
+nav a:nth-child(2) {
+    animation: blinkGlow 1.8s infinite alternate;
+}
+
+nav a:nth-child(3) {
+    animation: blinkGlow 2s infinite alternate;
+}
+
+nav a:nth-child(4) {
+    animation: blinkGlow 2s infinite alternate;
+}
+
+@keyframes blinkGlow {
+    0% {
+        color: #0d47a1;
+        text-shadow: 0 0 8px rgba(33, 150, 243, 0.5);
+    }
+    100% {
+        color: #1565c0;
+        text-shadow: 0 0 15px rgba(33, 150, 243, 1);
+    }
+}
+
+nav a:hover {
+    background:transparent;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* ============================
+   Content Section
+============================ */
+.content {
+    margin: 30px;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 170px;
+}
+
+/* ============================
+   Calculator Section
+============================ */
+.calculator {
+    background: #e3f2fd;
+    padding: 26px 77px;
+    max-width: 420px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+
+input,
+button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px ;
+    border-radius: 6px;
+    border: 1px solid #90caf9;
+    background: #ffffff;
+    color: #0d47a1;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    font-size: 16px;
+}
+
+/* Buttons */
+button {
+    background: #0d47a1;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    margin-left: 25px;
+}
+
+button:hover {
+    background: #1976d2;
+    transform: scale(1.05);
+}
+
+/* ============================
+   Image Slider
+============================ */
+.image-slider {
+    overflow: hidden;
+    width: 100%;
+    background: #ffffff;
+    white-space: nowrap;
+    position: relative;
+    padding: 15px 0;
+    border-bottom: 3px solid #90caf9;
+}
+
+.image-track {
+    display: flex;
+    width: 200%;
+    animation: scrollImages 20s linear infinite;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-track img {
+    width: 250px;
+    height: 160px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 3px solid #90caf9;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-track img:hover {
+    transform: scale(1.1);
+    border-color: #1976d2;
+}
+
+@keyframes scrollImages {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* ============================
+   Button Styles
+============================ */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ff7043;
+    color: white !important ;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 0 10px rgba(255, 87, 34, 0.6);
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: #ff5722;
+    box-shadow: 0 0 20px rgba(255, 87, 34, 1);
+    transform: scale(1.1);
+}
+
+/* ============================
+   Contact Section and about section
+============================ */
+.contact , .content{
+    background: #f1f8ff;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 30%;
+}
+
+.contact h2, .content h2{
+    font-size: 24px;
+    color: #0d47a1;
+}
+
+.contact a , .content a{
+    color: #1565c0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover , .content a:hover{
+    text-decoration: underline;
+    color: #1976d2;
+}
+
+/* Chart Container */
+canvas#drainageChart {
+    max-width: 100%;
+    width: 100%;
+    height: 300px;
+    background: white;  /* Light theme */
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Chart Area */
+.chart-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    background: #f9f9f9;  /* Light background */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ============================
+   Footer Section
+============================ */
+footer {
+    background: #e3f2fd;
+    padding: 15px;
+    font-size: 14px;
+    color: #0d47a1;
+    border-top: 2px solid #90caf9;
+}
+
+/* ============================
+   Additional Responsive Design
+============================ */
+
+/* Adjust header elements for smaller screens */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .logo {
+        width: 70px;
+    }
+}
+
+/* Adjust navigation for mobile */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+}
+
+/* Ensure content areas fit well on small screens */
+@media (max-width: 768px) {
+    .content,
+    .contact {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .content h2,
+    .contact h2 {
+        font-size: 20px;
+    }
+}
+
+/* Make buttons more mobile-friendly */
+@media (max-width: 480px) {
+    .btn {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+}
+
+/* Ensure image slider adapts to small screens */
+@media (max-width: 600px) {
+    .image-track {
+        width: 300%;
+        animation: scrollImages 15s linear infinite;
+    }
+
+    .image-track img {
+        width: 150px;
+        height: 100px;
+    }
+}
+
+/* Adjust form inputs and buttons for smaller screens */
+@media (max-width: 480px) {
+    input,
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .calculator {
+        width: 100%;
+        padding: 15px;
+    }
+}
