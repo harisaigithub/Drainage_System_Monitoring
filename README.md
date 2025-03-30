@@ -1,4 +1,3 @@
-
 # 🌊 Drainage Management System  
 
 ## About - COMMUNITY SERVICE PROJECT  
@@ -89,18 +88,53 @@ This project is licensed under the **MIT License**. You are free to **use, modif
 
 ## 🖼️ Screenshots  
 ### 📍 Home Page  
-![Home Page](images/homepage.png)  
+![HOME](https://github.com/user-attachments/assets/c5f835b3-6e70-4159-ba2b-6ff1bd87f3de)
 
-### 📍 Drainage Calculation  
-![Drainage Calculator](images/calculator.png)  
+---
+### 📍 About Us 
+![about us](https://github.com/user-attachments/assets/28475c45-eaf1-487e-93db-a1818565be48)
 
-### 📍 Issue Reporting  
-![Report Page](images/report.png)  
+---
+### 📍 Contact Us 
+![contact us](https://github.com/user-attachments/assets/29629698-15b1-4540-a548-7b496a48ebb6)
 
 ---
 
+### 📍 Issue Reporting  
+![G-Form0](https://github.com/user-attachments/assets/65e84fed-4ba4-48e7-b042-f35d293e0f38)
+![G-Form 2](https://github.com/user-attachments/assets/66284bfb-af66-480b-aa0a-d042a5d6eb1d)
+![G-Form 3](https://github.com/user-attachments/assets/9cd277a4-a797-4f8b-82b1-e4eb5cf1706d)
+![G-Form 5](https://github.com/user-attachments/assets/543d03c4-92e7-4764-a490-d9f3a1dfc462)
+![G-Form 6](https://github.com/user-attachments/assets/affb9973-b5be-48c5-8be7-5e24825d0bf9)
+![G-Form 7](https://github.com/user-attachments/assets/c1fecc54-2ba8-45ac-8ac8-138d30198746)
+![G-Form 7](https://github.com/user-attachments/assets/7a55c64e-5240-4ac6-abf0-db1da496d3a9)
+---
+
+### 📍 Admin Panel results 
+![G-Form 9](https://github.com/user-attachments/assets/dd0a7e6e-de6e-4bb5-9bf9-e0a0e8e54f65)
+![G-Form A H](https://github.com/user-attachments/assets/059c67b1-362e-4978-943b-2707066d1277)
+![G-Form A](https://github.com/user-attachments/assets/70f8a11d-124a-4540-9f65-6f2b6906bee0)
+![G-Form B](https://github.com/user-attachments/assets/899eba49-8d6b-43b3-8d17-1fb0a23d8ab6)
+![G-Form B](https://github.com/user-attachments/assets/ff517a17-f1d8-476f-80df-082225883fe5)
+
+---
+
+### 📍 Drainage Calculation  
+![Drainage Capacity](https://github.com/user-attachments/assets/46b3dfbd-5f0c-4500-a105-856d53fa0913)
+
+---
+
+### 📍 Drainage Calculation  Results
+![drainage capacity results](https://github.com/user-attachments/assets/23909fae-c1da-4249-822f-ad8cec3aad9f)
+
+---
+### 📍Footer
+
+![FOOTER](https://github.com/user-attachments/assets/a161ef76-bb85-4e6f-ae6e-195ce701e505)
+
+---
 ## 🚀 Hosting Link  
-🔗 **Live Demo**: [Drainage Management System](#) *(Replace with actual link when hosted)*  
+🔗 **Live Demo**: [Drainage Management System](https://drainage-system-monitoring.netlify.app/)  
 
 ---
 
@@ -125,12 +159,11 @@ git push origin feature-name
 ---
 
 ## 👨‍💻 Author  
-🚀 **Your Name** - [GitHub Profile](https://github.com/harisaigithub)  
+🚀 **HARISAI_PARASA** - [harisaigithub](https://github.com/harisaigithub)  
 
 ---
 
 💡 **Community First!** Manage drainage efficiently and report issues for a better environment. 🌍  
-```
 
 ---
 
@@ -138,8 +171,3 @@ git push origin feature-name
 ✅ **Clone & Setup Instructions**  
 ✅ **How to Run the Project** (Browser & Local Server)  
 ✅ **How to Contribute** (Fork, Branch, Commit, PR)  
-
-Replace:  
-- `your-username` with your **GitHub username**.  
-- `#` in **Live Demo** with your **actual hosted link**.  
-
