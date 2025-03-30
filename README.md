@@ -1,6 +1,4 @@
-Here’s an **updated README.md** file with instructions on how others can **clone, use, and run your project**.  
 
-```md
 # 🌊 Drainage Management System  
 
 ## About - COMMUNITY SERVICE PROJECT  
